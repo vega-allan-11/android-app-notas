@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    private const val BASE_URL = "http://192.168.1.23:8000/api/" // Sustituye por tu IP local real
+    private const val BASE_URL = "http://192.168.0.117:8000/api/" // Sustituye por tu IP local real
 
     fun getApiService(token: String? = null): ApiService {
         val clientBuilder = OkHttpClient.Builder()
